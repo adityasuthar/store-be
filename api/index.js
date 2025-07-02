@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import gplay from "google-play-scraper";
-import appstore from "app-store-scraper";
+// import appstore from "app-store-scraper";
 
 
 const app = express();
