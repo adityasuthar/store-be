@@ -5,7 +5,6 @@ import appstore from "app-store-scraper";
 
 
 const app = express();
-const PORT = 3001;
 
 app.use(cors());
 
@@ -67,7 +66,7 @@ app.get("/api/suggest", async (req, res) => {
   }
 });
 
-module.exports = app;
+export default app;
 
 
 
