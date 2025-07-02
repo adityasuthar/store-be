@@ -1,10 +1,11 @@
-const express = require('express');
+import express from 'express';
 const app = express();
-
+// Routes
 app.get('/hello', (req, res) => {
   res.json({ message: 'Hello from Vercel!' });
 });
 
+// Export for Vercel
 export default app;
 
 // import express from "express";
